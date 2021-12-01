@@ -10,6 +10,7 @@ env PATH=${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin:$PATH
 run apt-get update \
     && apt-get -qq upgrade \
     && apt-get -qq install \
+      curl \
       git \
       openjdk-11-jdk-headless \
       unzip \
